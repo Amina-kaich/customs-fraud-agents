@@ -6,3 +6,4 @@ lightgbm
 shap
 optuna
 pytest
+matplotlib
