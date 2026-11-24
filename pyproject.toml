@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customs-fraud-agents"
+version = "0.1.0"
+description = "PFE 2026-2027 : detection de la fraude douaniere par systeme multi-agents"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
