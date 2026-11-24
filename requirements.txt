@@ -7,3 +7,4 @@ shap
 optuna
 pytest
 matplotlib
+scipy
